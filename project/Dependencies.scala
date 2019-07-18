@@ -119,7 +119,7 @@ object Dependencies {
       val jimfs = "com.google.jimfs" % "jimfs" % "1.1" % "test" // ApacheV2
 
       // docker utils
-      val dockerClient = "com.spotify" % "docker-client" % "8.13.1" % "test" // ApacheV2
+      val dockerClient = "com.spotify" % "docker-client" % "8.16.0" % "test" // ApacheV2
 
       // metrics, measurements, perf testing
       val metrics = "io.dropwizard.metrics" % "metrics-core" % "3.2.5" % "test" // ApacheV2

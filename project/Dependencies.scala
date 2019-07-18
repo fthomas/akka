@@ -139,7 +139,7 @@ object Dependencies {
     object Provided {
       // TODO remove from "test" config
       // If changed, update akka-docs/build.sbt as well
-      val sigarLoader = "io.kamon" % "sigar-loader" % "1.6.6-rev002" % "optional;provided;test" // ApacheV2
+      val sigarLoader = "io.kamon" % "sigar-loader" % "1.6.6" % "optional;provided;test" // ApacheV2
 
       val activation = "com.sun.activation" % "javax.activation" % "1.2.0" % "provided;test"
 
